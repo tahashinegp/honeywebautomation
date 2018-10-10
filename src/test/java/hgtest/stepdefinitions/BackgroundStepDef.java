@@ -38,6 +38,7 @@ public class BackgroundStepDef {
     public void userWillClickSignInButton() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         loginPage.enterSignIn();
+        Thread.sleep(3000);
     }
 
     @And("^User will see Account menu$")
