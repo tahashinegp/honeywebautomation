@@ -7,18 +7,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+
+
 public class LoginPage {
     public WebDriver driver;
     public WebElement element;
 
     @FindBy(how= How.XPATH,xpath = "//input[@class='css-jgpmay']")
-    WebElement userNameTxt;
+    public WebElement userNameTxt;
     @FindBy(how= How.XPATH,xpath = "//input[@class='css-h8v0k']")
-    WebElement paswordTxt;
+    public WebElement paswordTxt;
     @FindBy(how= How.XPATH,xpath = "//button[@class='css-1couuec']")
-    WebElement signInbutton;
+    public WebElement signInbutton;
     @FindBy(how=How.XPATH,xpath = "//nav/a")
-    WebElement verifylinkText;
+    public WebElement verifylinkText;
+    @FindBy(how=How.XPATH,xpath = "//div[@class='css-1d6in5t']")
+    public WebElement loginErrorelement;
 
     public LoginPage(){
 

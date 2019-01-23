@@ -2,7 +2,9 @@ package hgtest.config;
 
 import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
+import org.springframework.stereotype.Component;
 
+@Component
 public class BrowserManagerFactory {
     WebDriver driver;
 

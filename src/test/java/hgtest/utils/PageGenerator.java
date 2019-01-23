@@ -5,9 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 public class PageGenerator {
 
     public static WebDriver driver;
@@ -16,8 +18,8 @@ public class PageGenerator {
     public PageGenerator(WebDriver driver){
         this.driver = driver;
     }
-
-    public static<TPage>  TPage GetInstance(Class<TPage> pageObject,WebDriver driver){
+    @Bean
+    public static<TPage> TPage GetInstance(Class<TPage> pageObject,WebDriver driver){
         try {
             //Initialize the Page with its elements and return it.
             return PageFactory.initElements(driver,  pageObject);
@@ -103,6 +105,7 @@ public class PageGenerator {
             }
             return clickedLinktext;
         }
+
 
     }
 

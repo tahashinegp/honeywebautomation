@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baf62a1f-10c6-4114-970e-6d8f67e7b044" name="Default" comment="" />
+    <list default="true" id="baf62a1f-10c6-4114-970e-6d8f67e7b044" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/signup.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hgtest/utils/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gramautomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/utils.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/utils.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/helpermethods/UIhelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/helpermethods/UIhelperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/SearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hgtest/utils/PageGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hgtest/utils/PageGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/config/BrowserInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/config/BrowserManagerFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/config/BrowserManagerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/config/BrowserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/config/ChromedriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/config/FirefoxDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/helpermethods/UIhelperMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/runner/CustomCucumberAbstractTestng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/runner/CustomCucumberRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/runner/FeatureRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/stepdefinitions/BackgroundStepDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/stepdefinitions/LoginSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/test/GenerictestReportGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/utils/HelperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/utils/PageGenerator$BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hgtest/utils/PageGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,77 +79,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelperClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/utils/HelperClass.java">
+      <file leaf-file-name="BackgroundStepDef.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/stepdefinitions/SearchSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="184">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#userWillSeeTheListOfHoney#0;class#LoginSteps#0" expanded="true" />
-                <element signature="method#userWillEnterInvalidText#0;class#LoginSteps#0" expanded="true" />
-                <element signature="method#userWillPressEnterOrClickSerachIcon#0;class#LoginSteps#0" expanded="true" />
-                <element signature="method#userWillSeeTheMessageInvalidSearch#0;class#LoginSteps#0" expanded="true" />
+                <element signature="method#getScenarioContext#0;class#BackgroundStepDef#0" expanded="true" />
+                <element signature="method#userSubmitUsernameAndPassword#0;class#BackgroundStepDef#0" expanded="true" />
+                <element signature="method#userWillClickSignInButton#0;class#BackgroundStepDef#0" expanded="true" />
+                <element signature="method#userWillSeeAccountMenu#0;class#BackgroundStepDef#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/main/resources/features/search.feature">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="176">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#208#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChromedriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/ChromedriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="76">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#enterSignIn#0;class#LoginPage#0" expanded="true" />
+                <element signature="method#verifylinkText#0;class#LoginPage#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirefoxDriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/FirefoxDriverManager.java">
+      <file leaf-file-name="SearchSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+            <state relative-caret-position="220">
+              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+              <folding>
+                <element signature="method#enterSearchText#0;class#SearchSteps#0" expanded="true" />
+                <element signature="method#userWillSeeTheListOfHoney#0;class#SearchSteps#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserManagerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/BrowserManagerFactory.java">
+      <file leaf-file-name="HelperClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="140">
+              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#HelperClass#0;class#HelperClass#0" expanded="true" />
+                <element signature="method#initializeDriver#0;class#HelperClass#0" expanded="true" />
+                <element signature="method#getScenarioContext#0;class#HelperClass#0" expanded="true" />
+                <element signature="method#before#0;class#HelperClass#0" expanded="true" />
+                <element signature="method#after#0;class#HelperClass#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScenarioScope.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioScope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#get#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="method#get#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="docComment;method#remove#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="docComment;method#registerDestructionCallback#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="method#registerDestructionCallback#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="docComment;method#resolveContextualObject#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="docComment;method#getConversationId#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="docComment;method#vaporize#0;class#ScenarioScope#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScenarioContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#228#0" expanded="true" />
+                <element signature="method#getScenario#0;class#ScenarioContext#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,62 +207,62 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../gramautomation" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/suite.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/Search.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/runner/CustomCucumberRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/runner/CustomCucumberAbstractTestng.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/runner/FeatureRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/runner/FeatureRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/runner/FeatureRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Signup.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/pages/BckgroundStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/pages/BckgroundStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/Search.feature" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/runner/FeatureRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/config/ChromedriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
         <option value="$PROJECT_DIR$/src/test/resources/utils.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/utils.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/config/ChromedriverMgmt.java" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/config/ChromedriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserInterface.java" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/config/FirefoxDriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SignUp.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search.feature" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
         <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/helpermethods/UIhelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/signup.feature" />
+        <option value="E:/supergrid_demo/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/cucumber.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/utils.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
-        <option value="$PROJECT_DIR$/../gramautomation/src/main/resources/features/search.feature" />
-        <option value="$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/stepdefinitions/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/stepdefinitions/SearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/search.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/SharedContext.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/CommonComponent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/CommonSharedScenario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/SearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/SearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/PageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioScope.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java" />
       </list>
     </option>
   </component>
@@ -231,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,27 +326,6 @@
               <item name="gramautomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="gramautomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gramautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gramautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gramautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gramautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gramautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gramautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,40 +334,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gramautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gramautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hgtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gramautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gramautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hgtest" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/features" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47356322" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -345,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.All Features in: gramautomation">
+  <component name="RunManager" selected="Cucumber java.All Features in: gramautomation (2)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -614,7 +655,19 @@
       <workItem from="1539168886315" duration="987000" />
       <workItem from="1539169945392" duration="1995000" />
       <workItem from="1539171970824" duration="58000" />
-      <workItem from="1539172045972" duration="2187000" />
+      <workItem from="1539172045972" duration="2641000" />
+      <workItem from="1539518453707" duration="8595000" />
+      <workItem from="1540271070105" duration="154000" />
+      <workItem from="1540360676946" duration="687000" />
+      <workItem from="1541046136367" duration="417000" />
+      <workItem from="1543234649183" duration="581000" />
+      <workItem from="1543387803889" duration="1834000" />
+      <workItem from="1544438241181" duration="2038000" />
+      <workItem from="1545210521223" duration="2686000" />
+      <workItem from="1545280058591" duration="8711000" />
+      <workItem from="1545801265172" duration="23435000" />
+      <workItem from="1548134598244" duration="4531000" />
+      <workItem from="1548219580000" duration="6719000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1538657181201</created>
@@ -627,39 +680,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Features_in__gramautomation_(3) - 2018.10.04 at 17h 32m 45s.xml">
-      <configuration name="All Features in: gramautomation (3)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 15h 44m 14s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__SignUp - 2018.10.04 at 18h 08m 16s.xml">
-      <configuration name="Feature: SignUp" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 15h 47m 13s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_Features_in__gramautomation_(3) - 2018.10.04 at 18h 26m 23s.xml">
-      <configuration name="All Features in: gramautomation (3)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 15h 50m 35s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_Features_in__gramautomation_(3) - 2018.10.04 at 18h 27m 14s.xml">
-      <configuration name="All Features in: gramautomation (3)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 16h 02m 08s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_Features_in__gramautomation_(3) - 2018.10.04 at 18h 27m 31s.xml">
-      <configuration name="All Features in: gramautomation (3)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 16h 08m 38s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__search - 2018.10.10 at 15h 26m 14s.xml">
-      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 16h 23m 08s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__search - 2018.10.10 at 15h 28m 51s.xml">
-      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 16h 24m 41s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_Features_in__gramautomation - 2018.10.10 at 16h 04m 04s.xml">
-      <configuration name="All Features in: gramautomation" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 16h 26m 02s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__search_(2) - 2018.10.10 at 17h 18m 30s.xml">
-      <configuration name="Feature: search (2)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2018.12.26 at 16h 29m 32s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_Features_in__gramautomation_(1) - 2018.10.10 at 17h 29m 56s.xml">
-      <configuration name="All Features in: gramautomation (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__gramautomation_(2) - 2019.01.23 at 15h 13m 42s.xml">
+      <configuration name="All Features in: gramautomation (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46573000" />
+    <option name="totallyTimeSpent" value="107415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,35 +728,37 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.24886535" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32843137" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.2375189" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.25037822" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.2375189" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -711,13 +766,13 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09455371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -727,14 +782,14 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39869282" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,8 +821,14 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -775,152 +836,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/FeatureBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/pages/BckgroundStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/main/resources/features/search.feature" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/runner/FeatureRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaHookDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Stats.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/RuntimeOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/ScenarioImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/main/resources/utils.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/ChromedriverMgmt.java" />
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/BrowserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberFeature.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/cli/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberScenario.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/StepContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/AccessibleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Timeout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaStepDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1012,114 +927,302 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/BrowserType.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/config/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/FirefoxDriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/config/FirefoxDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1078">
           <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/BrowserManagerFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SignUp.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/Login.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/config/ChromedriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/helpermethods/UIhelperMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/supergrid_demo/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/signup.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/utils/PageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/resources/features/SignUp.feature" />
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/helpermethods/UIhelperMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/test/GenerictestReportGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cucumber.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/utils.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/chromedriver.exe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/CollectPreconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/main/resources/features/Login.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/SharedContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/CommonComponent.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/config/BrowserManagerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/config/ChromedriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="88">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getBrowser#0;class#BrowserManagerFactory#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/config/BrowserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/main/resources/chromedriver.exe">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/main/resources/features/search.feature">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/SearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#userWillClickSignInButton#0;class#BackgroundStepDef#0" expanded="true" />
+            <element signature="method#enterSearchText#0;class#SearchSteps#0" expanded="true" />
+            <element signature="method#userWillSeeTheListOfHoney#0;class#SearchSteps#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/utils/HelperClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/runner/FeatureRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="316">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#518#927#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gramautomation/src/test/java/hgtest/stepdefinitions/SearchSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="76">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#userWillSeeTheListOfHoney#0;class#LoginSteps#0" expanded="true" />
-            <element signature="method#userWillEnterInvalidText#0;class#LoginSteps#0" expanded="true" />
-            <element signature="method#userWillPressEnterOrClickSerachIcon#0;class#LoginSteps#0" expanded="true" />
-            <element signature="method#userWillSeeTheMessageInvalidSearch#0;class#LoginSteps#0" expanded="true" />
+            <element signature="method#enterSignIn#0;class#LoginPage#0" expanded="true" />
+            <element signature="method#verifylinkText#0;class#LoginPage#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/PageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="class#BasePage#0;class#PageGenerator#0" expanded="true" />
+            <element signature="method#elementClick#0;class#BasePage#0;class#PageGenerator#0" expanded="true" />
+            <element signature="method#writeText#0;class#BasePage#0;class#PageGenerator#0" expanded="true" />
+            <element signature="method#cllickMenu#0;class#BasePage#0;class#PageGenerator#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/Honeygram_test_suite/Feature test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#get#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="method#get#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="docComment;method#remove#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="docComment;method#registerDestructionCallback#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="method#registerDestructionCallback#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="docComment;method#resolveContextualObject#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="docComment;method#getConversationId#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="docComment;method#vaporize#0;class#ScenarioScope#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/ScenarioContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#228#0" expanded="true" />
+            <element signature="method#getScenario#0;class#ScenarioContext#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/stepdefinitions/BackgroundStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getScenarioContext#0;class#BackgroundStepDef#0" expanded="true" />
+            <element signature="method#userSubmitUsernameAndPassword#0;class#BackgroundStepDef#0" expanded="true" />
+            <element signature="method#userWillClickSignInButton#0;class#BackgroundStepDef#0" expanded="true" />
+            <element signature="method#userWillSeeAccountMenu#0;class#BackgroundStepDef#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hgtest/utils/HelperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#HelperClass#0;class#HelperClass#0" expanded="true" />
+            <element signature="method#initializeDriver#0;class#HelperClass#0" expanded="true" />
+            <element signature="method#getScenarioContext#0;class#HelperClass#0" expanded="true" />
+            <element signature="method#before#0;class#HelperClass#0" expanded="true" />
+            <element signature="method#after#0;class#HelperClass#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1181,7 +1284,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47356322" />
                 <option value="0.6" />
               </list>
             </option>
